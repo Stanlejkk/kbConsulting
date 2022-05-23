@@ -79,10 +79,16 @@
     scroll-behavior: smooth;
   }
 }
+@font-face {
+  font-family: "PingFang SC Regular";
+  src: url("/assets/webfonts/PingFang\ SC\ Regular.eot");
+  src: url("/assets/webfonts/PingFang\ SC\ Regular.woff") format("woff"),
+  url("/assets/webfonts/PingFang\ SC\ Regular.ttf") format("opentype"),
+  }
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family:'PingFang SC Regular';
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -93,12 +99,6 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-@font-face {
-  font-family: "PingFang SC Regular";
-  src: url("/assets/webfonts/PingFang\ SC\ Regular.eot");
-  src: url("/assets/webfonts/PingFang\ SC\ Regular.woff") format("woff"),
-  url("/assets/webfonts/PingFang\ SC\ Regular.ttf") format("opentype"),
-  }
 
 hr {
   margin: 1rem 0;
@@ -7984,7 +7984,10 @@ textarea.form-control-lg {
 .text-white-50 {
   font-family: 'Ping Fang SC Regular';
   --bs-text-opacity: 1;
-  color: white;
+  color: black;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .text-reset {
@@ -11636,7 +11639,7 @@ body {
   padding-top: 2rem;
   color: white;
   font-family: 'Ping Fang SC Regular';
-  background: linear-gradient(to bottom, #f8f0e3 0%, rgba(0, 0, 0, 0.9) 60%, rgba(0, 0, 0, 0.8) 100%);
+  /*background: linear-gradient(to bottom, #f8f0e3 0%, rgba(0, 0, 0, 0.9) 60%, rgba(0, 0, 0, 0.8) 100%);*/
 }
 .about-section p {
   margin-bottom: 5rem;
