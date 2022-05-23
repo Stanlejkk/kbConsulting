@@ -7990,6 +7990,13 @@ textarea.form-control-lg {
   font-size: 1.4rem;
 }
 
+.text-white-500 {
+  font-family: 'Ping Fang SC Regular';
+  --bs-text-opacity: 1;
+  color: white;
+  font-size: 1.4rem;
+}
+
 .text-reset {
   --bs-text-opacity: 1;
   color: inherit !important;
